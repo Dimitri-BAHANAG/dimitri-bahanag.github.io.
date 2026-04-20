@@ -14,8 +14,8 @@ via le protocole MCP (Model Context Protocol).
 ## Architecture technique
 
 Voici les deux architectures proposées :
-![Architecture A](assets/images/architectureA.png)
-![Architecture B](assets/images/architectureB.png)
+![Architecture A](assets/images/architectureA)
+![Architecture B](assets/images/architectureB)
 J'ai opté pour l'Architecture B : le serveur MCP tourne sur mon PC (localhost:8000)
 et se connecte au Raspberry Pi via le réseau (port 8888 pour pigpiod).
 Ce choix évite les problèmes de pare-feu scolaire et facilite le débogage.
