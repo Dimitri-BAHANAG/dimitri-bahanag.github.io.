@@ -9,7 +9,7 @@ github_username: dimitri-bahanag
 theme: minima
  
 # Pages visibles dans la navigation
-Guide Portfolio Ingénieur  --  Dimitri Bahanag Page 8 / 22
+#Guide Portfolio Ingénieur  --  Dimitri Bahanag Page 8 / 22
 header_pages:
    - index.md
    - projets.md
