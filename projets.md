@@ -22,11 +22,11 @@ Ce choix évite les problèmes de pare-feu scolaire et facilite le débogage.
 
 Voici quelques images qui illustrent l'accomplissement du projet :
 
-![Robot ESIEAbot avec LED allumée](assets/images/IMG-20260420-WA0029.jpg)
+![](assets/images/IMG-20260420-WA0029.jpg)
 *Le robot ESIEAbot avec l'afficheur OLED et les LEDs actives*
-![Commande du robot à partir de Claude Desktop](assets/images/commande-IA.png)
+![](assets/images/commande-IA.png)
 *Commande de l'ESIEABOT à partir de Claude Desktop*
-![Mouvement du servo moteur grace à un signal PWM](assets/images/mcp-angle-ok)
+![](assets/images/mcp-angle-ok)
 *Mouvement du servo moteur grace à un signal PWM*
 ---
 ## Résultats obtenus- Serveur MCP opérationnel en mode simulation (stub pigpio)- Claude Desktop détecte et liste tous les outils esieabot- Commandes de déplacement et angle servo fonctionnent en simulation- Problème identifié : pigpiod n'écoute pas sur *:8888 (solution documentée)
