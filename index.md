@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "Dimitri Bahanag -- Ingénieur Mécatronique | Etudiant Systèmes Embarqués "
+---
  
 # Dimitri Bahanag
  
