@@ -14,17 +14,17 @@ via le protocole MCP (Model Context Protocol).
 ## Architecture technique
 
 Voici les deux architectures proposées :
-![Architecture A](assets/images/architectureA.png)
-![Architecture B](assets/images/architectureB.png)
+![Architecture A](/assets/images/architectureA.png)
+![Architecture B](/assets/images/architectureB.png)
 J'ai opté pour l'Architecture B : le serveur MCP tourne sur mon PC (localhost:8000)
 et se connecte au Raspberry Pi via le réseau (port 8888 pour pigpiod).
 Ce choix évite les problèmes de pare-feu scolaire et facilite le débogage.
 
 Voici quelques images qui illustrent l'accomplissement du projet :
 
-![*Le robot ESIEAbot avec l'afficheur OLED et les LEDs actives*](assets/images/IMG-20260420-WA0029.jpg)
-![*Commande de l'ESIEABOT à partir de Claude Desktop*](assets/images/commande-IA.png)
-![*Mouvement du servo moteur grace à un signal PWM*](assets/images/mcp-angle-ok.png)
+![Le robot ESIEAbot avec l'afficheur OLED et les LEDs actives](/assets/images/IMG-20260420-WA0029.jpg)
+![Commande de l'ESIEABOT à partir de Claude Desktop](/assets/images/commande-IA.png)
+![Mouvement du servo moteur grace à un signal PWM](/assets/images/mcp-angle-ok.png)
 ---
 ## Résultats obtenus
 - Serveur MCP opérationnel en mode simulation (stub pigpio)
