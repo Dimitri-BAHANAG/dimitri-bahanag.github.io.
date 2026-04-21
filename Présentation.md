@@ -9,7 +9,7 @@ title: "Dimitri Bahanag -- Ingénieur Mécatronique | Etudiant Systèmes Embarqu
  
 Ingénieur diplômé de l'ENSP Douala (mention B+) et actuellement en 3e année à l'ESIEA
 (moyenne 14,07/20), je suis passionné par les systèmes embarqués, l'électronique
-et le développement bas niveau. Ce portfolio présente mes projets académiques
+et le développement logiciel. Ce portfolio présente mes projets académiques
 et industriels réalisés entre 2022 et 2026.
  ---
  
