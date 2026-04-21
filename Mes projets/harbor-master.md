@@ -46,7 +46,7 @@ Le moteur de décision doit jongler avec plusieurs contraintes critiques :
 * **Gestion des Grues :** Chaque grue est limitée à une seule action par tick et possède une typologie spécifique de conteneurs qu'elle peut manipuler.
 
 ## Rapport et code source
- - [Télécharger le rapport TD3 (PDF)](/assets/images/Rapport%20de%20Projet%20CHALLENGES%20TECHNIQUES.docx)
+ - [Télécharger le rapport Challenges Techniques (PDF)](/assets/images/Rapport%20de%20Projet%20CHALLENGES%20TECHNIQUES.docx)
  - [Dépôt GitLab](https://gitlab.esiea.fr/dimitri.bahanag/gestionnaire_traffic_portuaire.git)
 
 ## 📦 Structure du Projet
