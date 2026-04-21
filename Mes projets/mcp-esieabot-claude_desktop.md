@@ -43,4 +43,4 @@ Voici quelques images qui illustrent l'accomplissement du projet :
  ---
  
 ## Rapport et code source
- - [Télécharger le rapport TD3 (PDF)](assets/images/rapport_td3_mcp-1.pdf)- [Dépôt GitLab](https://gitlab.esiea.fr/dimitri.bahanag/mcp-esieabot)
+ - [Télécharger le rapport TD3 (PDF)](/assets/images/rapport_td3_mcp-1.pdf)- [Dépôt GitLab](https://gitlab.esiea.fr/dimitri.bahanag/mcp-esieabot)
