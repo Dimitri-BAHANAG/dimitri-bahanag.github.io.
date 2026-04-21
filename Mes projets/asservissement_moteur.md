@@ -18,6 +18,10 @@ Le système est modélisé par une fonction de transfert du second ordre intégr
 * **Actionneur** : Moteur à courant continu couplé à un réducteur de rapport.
 * **Capteur** : Potentiomètre fournissant une tension $V_p$ proportionnelle à la position angulaire $\theta_s$ ($V_p = K\theta_s$).
 * **Contrôle** : Traitement du signal d'erreur via Arduino pour générer une commande PWM.
+* * ![*Dispositif1*](assets/images/montage_moteur.jpg)
+* *Figure 1: Schéma du montage*
+* * ![*Dispositif2*](assets/images/visualisation_mcc.jpg)
+* *Figure 2: Schéma et visualisation*
 
 ## Réalisations Principales
 
