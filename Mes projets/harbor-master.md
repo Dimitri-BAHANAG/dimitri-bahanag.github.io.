@@ -13,6 +13,9 @@ Ce projet met en œuvre des concepts avancés de génie logiciel :
 * **Intégration API REST :** Consommation d'endpoints HTTP, gestion de l'authentification et parsing de données JSON en temps réel.
 * **Robustesse :** Gestion des erreurs réseau, des timeouts et des contraintes métier (capacité des quais, types de grues compatibles).
 
+![Harbor Master](/assets/images/a-challenge-harbor-master.PNG)
+*Présentation du projet harbor master*
+
 ## 🛠 Architecture du Système
 L'application repose sur une boucle de jeu (Game Loop) synchrone :
 1. **Observation :** Récupération de l'état actuel du port via `/v1/state`.
@@ -21,12 +24,16 @@ L'application repose sur une boucle de jeu (Game Loop) synchrone :
 4. **Action :** Envoi des commandes aux grues via `/v1/action`.
 5. **Évolution :** Passage au tick suivant via `/v1/tick`.
 
-[Image d'un diagramme de séquence API REST]
+![Interface graphique](/assets/images/a-interface-harbor-master.PNG)
+*Interface graphique de l'application*
 
 ### Stratégies implémentées
 Pour répondre aux exigences de performance, le système supporte le changement de stratégie à la volée :
 * **Mode Urgentiste :** Priorité absolue aux conteneurs dont la `dueTick` est imminente pour éviter les pénalités.
 * **Mode Flux Tendu :** Maximisation du débit de chargement/déchargement pour libérer les quais rapidement.
+
+![Terminal utilisateur](/assets/images/a-terminal-harbor-master.PNG)
+*Terminal utilisateur*
 
 ## 📋 Règles Métier & Contraintes
 Le moteur de décision doit jongler avec plusieurs contraintes critiques :
