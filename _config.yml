@@ -1,0 +1,17 @@
+title: "Portfolio -- Dimitri Bahanag"
+description: "Ingénieur Mécatronique | Systèmes Embarqués | ESIEA"
+author: "Dimitri Bahanag"
+email: bahanagphilippe@gmail.com
+linkedin: "https://www.linkedin.com/in/dimitri-bahanag"
+github_username: dimitri-bahanag
+ 
+# Thème du site (autres options : cayman, slate, architect)
+theme: minima
+ 
+# Pages visibles dans la navigation
+
+header_pages:- index.md- projets.md- contact.md
+# Options techniques (ne pas modifier)
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
