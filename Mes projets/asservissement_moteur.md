@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Asservissement Angulaire de Moteur à Courant Continu (MCC)"
-date: 2026-04-21
+date: 2026-04-04
 categories: [Mechatronics, Automation]
 tags: [Arduino, Matlab, Control-Systems, ESIEA]
 ---
