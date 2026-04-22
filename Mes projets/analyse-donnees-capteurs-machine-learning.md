@@ -2,7 +2,7 @@
 > Projet de Data Science Industrielle | Dataset NASA C-MAPSS
 
 ## 📋 Résumé du Projet
-Ce projet implémente une solution de Maintenance Prédictive (PdM) pour des turboréacteurs d'avions. L'objectif est de prédire la Durée de Vie Utile Restante (RUL) — le nombre de cycles de vol avant une défaillance critique — en analysant les flux de données provenant de 21 capteurs (température, pression, vitesse).
+Ce projet implémente une solution de Maintenance Prédictive (PdM) pour des turboréacteurs d'avions. L'objectif est de prédire la Durée de Vie Utile Restante (RUL):  le nombre de cycles de vol avant une défaillance critique en analysant les flux de données provenant de 21 capteurs (température, pression, vitesse).
 
 L'enjeu : Passer d'une maintenance préventive rigide à une approche proactive, permettant de réduire les coûts opérationnels et d'éviter des pannes catastrophiques.
 
