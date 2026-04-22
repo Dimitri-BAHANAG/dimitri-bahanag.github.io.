@@ -80,5 +80,8 @@ Pour rendre ce projet actionnable, j'ai développé une interface interactive av
 ## 📈 Conclusion
 Ce projet démontre ma capacité à gérer un cycle complet de MLOps industriel : de l'analyse physique de capteurs bruts jusqu'au déploiement d'un outil d'aide à la décision. Cette expertise est directement transférable dans les secteurs de l'automobile, de l'énergie et de l'aérospatiale.
 
+## Code source
+ - [Dépôt GitLab](https://gitlab.esiea.fr/dimitri.bahanag/maintenance-predictive.git)
+
 ---
 *Ce projet fait partie de mon portfolio pour ma recherche d'alternance en Systèmes Embarqués et IA.*
