@@ -13,17 +13,17 @@ L'intelligence du modèle repose sur une compréhension fine de la physique du s
 
 ### 📉 1. Comportement Temporel des Capteurs
 
-![Evolution des Capteurs](/assets/images/a-ML-7.png)
+![Evolution des Capteurs](/assets/images/a-ML-7.PNG)
 *Figure1: Dégradation des capteurs*
 * Analyse : On observe que certains capteurs (comme les capteurs 2, 4, 7, 11, 12, 15) présentent une tendance très marquée (ascendante ou descendante) à mesure que le temps passe. 
 * Interprétation : Le point de rupture se situe souvent après le cycle 120. Avant cela, le signal est stable ; après, la dégradation s'accélère. C'est cet indicateur que le modèle doit capter pour prédire l'imminence d'une panne.
 
 ### 🌡️ 2. Distribution et Variabilité
 
-![Histogramme1](/assets/images/a-ML-4.png)
+![Histogramme1](/assets/images/a-ML-4.PNG)
 *Figure2: Modèle random-forest *
 
-![Histogramme2](/assets/images/a-ML-5.png)
+![Histogramme2](/assets/images/a-ML-5.PNG)
 *Figure3: Modèle XGBoost*
 
 * Analyse : Les histogrammes révèlent que certains capteurs ont une distribution bimodale ou très étalée, tandis que d'autres sont "plats" (capteurs statiques).
@@ -31,7 +31,7 @@ L'intelligence du modèle repose sur une compréhension fine de la physique du s
 
 ### 🗺️ 3. Corrélation des Features
 
-![Matrice de Corrélation](/assets/images/a-ML-5.png)
+![Matrice de Corrélation](/assets/images/a-ML-5.PNG)
 *Figure4: Comparaison des modèles de prédiction*
 
 * Analyse : La matrice montre des corrélations proches de 1 (ou -1) entre certains capteurs et le temps (cycle). 
@@ -59,7 +59,7 @@ J'ai mis en compétition trois architectures pour identifier le meilleur comprom
 * Analyse du Graphique : Le modèle suit fidèlement la courbe de dégradation réelle.
 * Sécurité : J'ai intégré un score asymétrique qui pénalise plus lourdement les prédictions tardives. En aéronautique, prédire qu'un moteur tiendra 20 cycles alors qu'il n'en reste que 10 est inacceptable. Mon modèle favorise des alertes légèrement anticipées pour garantir la sécurité.
 
-  ![Histogrammes](/assets/images/a-ML-6.png)
+  ![Histogrammes](/assets/images/a-ML-6.PNG)
   *Figure5: Tableau de bord*
 
 ---
@@ -71,9 +71,9 @@ Pour rendre ce projet actionnable, j'ai développé une interface interactive av
 
   *Figure6: Degré d'importance de chaque capteur*
 
-  ![Histogrammes](/assets/images/a-ML-1.png)
-  ![Histogrammes](/assets/images/a-ML-2.png)
-  ![Histogrammes](/assets/images/a-ML-3.png)
+  ![Histogrammes](/assets/images/a-ML-1.PNG)
+  ![Histogrammes](/assets/images/a-ML-2.PNG)
+  ![Histogrammes](/assets/images/a-ML-3.PNG)
 
 ---
 
